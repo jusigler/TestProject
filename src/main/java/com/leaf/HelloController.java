@@ -42,4 +42,8 @@ public class HelloController {
         return "Logged Stuff";
     }
 
+    @RequestMapping("/throw")
+    public String throwException() throws Exception {
+        throw new Exception("throw an exception");
+    }
 }

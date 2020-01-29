@@ -19,7 +19,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
 
-    compile 'io.sentry:sentry:1.7.27'
+    compile 'io.sentry:sentry-spring:1.7.27'
 }
 
 test {
